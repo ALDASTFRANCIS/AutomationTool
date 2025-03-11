@@ -1,0 +1,37 @@
+
+from playwright.sync_api import sync_playwright
+import time
+
+def run_test():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context()
+        page = context.new_page()
+        
+        try:
+            
+            # Navigate to URL
+            page.goto("https://testautomation3.salesparrow.com/")
+            page.wait_for_load_state("networkidle")
+
+            # Click element
+            page.click("['twigs-c-jBaUTL', 'twigs-c-jBaUTL-kHZrBO-size-xl']")
+            page.wait_for_load_state("networkidle")
+
+            # Fill input field and submit
+            page.fill("['twigs-c-jBaUTL', 'twigs-c-jBaUTL-kHZrBO-size-xl']", "")
+            page.keyboard.press("Enter")
+            page.wait_for_load_state("networkidle")
+
+            # Click element
+            page.click("['twigs-c-hxNQGZ twigs-c-hxNQGZ-celSbg-size-xl twigs-c-hxNQGZ-gGPhBD-color-primary twigs-c-hxNQGZ-bUvFAs-variant-solid twigs-c-hxNQGZ-ilhRsrq-css', '']")
+            page.wait_for_load_state("networkidle")
+            
+        except Exception as e:
+            print(f"Test failed: {str(e)}")
+        finally:
+            time.sleep(2)  # Small delay before closing
+            browser.close()
+
+if __name__ == "__main__":
+    run_test()

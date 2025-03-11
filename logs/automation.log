@@ -1,0 +1,329 @@
+2025-03-08 19:49:28,407 - src.web_automation_tool - ERROR - Failed to initialize browser: Message: session not created: cannot connect to chrome at 127.0.0.1:54990
+from session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 133.0.6943.142
+Stacktrace:
+0   undetected_chromedriver             0x00000001006c0922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x00000001006b85ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000100194dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x00000001001d71ae undetected_chromedriver + 692654
+4   undetected_chromedriver             0x00000001001d610d undetected_chromedriver + 688397
+5   undetected_chromedriver             0x00000001001cafb8 undetected_chromedriver + 643000
+6   undetected_chromedriver             0x000000010021ed96 undetected_chromedriver + 986518
+7   undetected_chromedriver             0x000000010021e246 undetected_chromedriver + 983622
+8   undetected_chromedriver             0x000000010020f9b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x00000001001d9ec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x00000001001dada1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x0000000100688d40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x000000010068b773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x000000010068b2eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x000000010068bbd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x000000010066dcef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x000000010068bebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x000000010065e8f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x00000001006a84f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x00000001006a86be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x00000001006b81b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff808899202 _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff808894bab thread_start + 15
+
+2025-03-08 19:51:10,343 - src.web_automation_tool - ERROR - Failed to initialize browser: Message: session not created: cannot connect to chrome at 127.0.0.1:55729
+from session not created: This version of ChromeDriver only supports Chrome version 134
+Current browser version is 133.0.6943.142
+Stacktrace:
+0   undetected_chromedriver             0x0000000105155922 undetected_chromedriver + 5843234
+1   undetected_chromedriver             0x000000010514d5ea undetected_chromedriver + 5809642
+2   undetected_chromedriver             0x0000000104c29dfe undetected_chromedriver + 421374
+3   undetected_chromedriver             0x0000000104c6c1ae undetected_chromedriver + 692654
+4   undetected_chromedriver             0x0000000104c6b10d undetected_chromedriver + 688397
+5   undetected_chromedriver             0x0000000104c5ffb8 undetected_chromedriver + 643000
+6   undetected_chromedriver             0x0000000104cb3d96 undetected_chromedriver + 986518
+7   undetected_chromedriver             0x0000000104cb3246 undetected_chromedriver + 983622
+8   undetected_chromedriver             0x0000000104ca49b3 undetected_chromedriver + 924083
+9   undetected_chromedriver             0x0000000104c6eec3 undetected_chromedriver + 704195
+10  undetected_chromedriver             0x0000000104c6fda1 undetected_chromedriver + 708001
+11  undetected_chromedriver             0x000000010511dd40 undetected_chromedriver + 5614912
+12  undetected_chromedriver             0x0000000105120773 undetected_chromedriver + 5625715
+13  undetected_chromedriver             0x00000001051202eb undetected_chromedriver + 5624555
+14  undetected_chromedriver             0x0000000105120bd5 undetected_chromedriver + 5626837
+15  undetected_chromedriver             0x0000000105102cef undetected_chromedriver + 5504239
+16  undetected_chromedriver             0x0000000105120ebc undetected_chromedriver + 5627580
+17  undetected_chromedriver             0x00000001050f38f4 undetected_chromedriver + 5441780
+18  undetected_chromedriver             0x000000010513d4f8 undetected_chromedriver + 5743864
+19  undetected_chromedriver             0x000000010513d6be undetected_chromedriver + 5744318
+20  undetected_chromedriver             0x000000010514d1b8 undetected_chromedriver + 5808568
+21  libsystem_pthread.dylib             0x00007ff808899202 _pthread_start + 99
+22  libsystem_pthread.dylib             0x00007ff808894bab thread_start + 15
+
+2025-03-08 19:57:48,867 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 19:57:48,867 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 19:57:48,867 - src.web_automation_tool - ERROR - Failed to execute step 'navigate to 'https://www.amazon.in/'': 'WebAutomationTool' object has no attribute 'navigate_to_url'
+2025-03-08 19:57:48,867 - src.web_automation_tool - ERROR - Test execution failed: 'WebAutomationTool' object has no attribute 'navigate_to_url'
+2025-03-08 20:00:46,517 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:00:46,518 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:00:49,247 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:00:49,249 - src.web_automation_tool - INFO - Navigated to URL: https://www.amazon.in/
+2025-03-08 20:00:49,252 - src.web_automation_tool - INFO - Successfully executed step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:00:51,257 - src.web_automation_tool - INFO - Executing step: search for iphone 13
+2025-03-08 20:00:51,272 - src.web_automation_tool - ERROR - Failed to execute step 'search for iphone 13': 'WebAutomationTool' object has no attribute 'get_element_info'
+2025-03-08 20:00:51,272 - src.web_automation_tool - ERROR - Test execution failed: 'WebAutomationTool' object has no attribute 'get_element_info'
+2025-03-08 20:02:20,635 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:02:20,635 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:02:20,635 - src.web_automation_tool - ERROR - Failed to execute step 'navigate to 'https://www.amazon.in/'': 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-08 20:02:20,635 - src.web_automation_tool - ERROR - Test execution failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-08 20:04:38,559 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:04:38,560 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:04:46,298 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:04:51,306 - src.web_automation_tool - INFO - Successfully executed step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:04:53,311 - src.web_automation_tool - INFO - Executing step: search for iphone 13
+2025-03-08 20:05:26,222 - src.web_automation_tool - ERROR - Failed to execute step 'search for iphone 13': Could not find input element for: search for iphone 13
+2025-03-08 20:05:26,224 - src.web_automation_tool - ERROR - Test execution failed: Could not find input element for: search for iphone 13
+2025-03-08 20:06:03,479 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:06:03,479 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:06:08,185 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:06:13,191 - src.web_automation_tool - INFO - Successfully executed step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:06:15,196 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:06:47,137 - src.web_automation_tool - ERROR - Failed to execute step 'search for 'iphone 13' in the search bar': Could not find input element for: search for 'iphone 13' in the search bar
+2025-03-08 20:06:47,137 - src.web_automation_tool - ERROR - Test execution failed: Could not find input element for: search for 'iphone 13' in the search bar
+2025-03-08 20:10:44,330 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:10:44,331 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:10:46,912 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:10:50,920 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:10:52,280 - src.web_automation_tool - ERROR - Failed to analyze elements: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 48878 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:10:52,280 - src.web_automation_tool - ERROR - Failed to execute step 'search for 'iphone 13' in the search bar': Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 48878 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:10:52,280 - src.web_automation_tool - ERROR - Test execution failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 48878 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:11:11,335 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:11:11,336 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:11:17,052 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:11:21,065 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:11:22,620 - src.web_automation_tool - ERROR - Failed to analyze elements: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 84066 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:11:22,620 - src.web_automation_tool - ERROR - Failed to execute step 'search for 'iphone 13' in the search bar': Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 84066 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:11:22,620 - src.web_automation_tool - ERROR - Test execution failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 84066 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-08 20:13:54,775 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:13:54,775 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:13:59,887 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:14:03,898 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:14:05,711 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 20:14:08,014 - src.web_automation_tool - INFO - Successfully executed step: search for 'iphone 13' in the search bar
+2025-03-08 20:14:10,019 - src.web_automation_tool - INFO - Executing step: click on the first link
+2025-03-08 20:14:31,946 - src.web_automation_tool - ERROR - Failed to execute step 'click on the first link': Could not find clickable element for: click on the first link
+2025-03-08 20:14:31,946 - src.web_automation_tool - ERROR - Test execution failed: Could not find clickable element for: click on the first link
+2025-03-08 20:54:05,026 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:54:05,026 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:54:11,405 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:54:15,416 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:54:17,941 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 20:54:20,091 - src.web_automation_tool - INFO - Successfully executed step: search for 'iphone 13' in the search bar
+2025-03-08 20:55:33,301 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:55:33,301 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:55:36,986 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:55:41,000 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:55:42,972 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 20:55:46,926 - src.web_automation_tool - INFO - Successfully executed step: search for 'iphone 13' in the search bar
+2025-03-08 20:55:48,931 - src.web_automation_tool - ERROR - Failed to generate script: 'url'
+2025-03-08 20:58:06,173 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 20:58:06,174 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 20:58:09,774 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 20:58:13,785 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 20:58:15,295 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 20:58:19,241 - src.web_automation_tool - INFO - Successfully executed step: search for 'iphone 13' in the search bar
+2025-03-08 20:58:21,244 - src.web_automation_tool - INFO - Successfully generated selenium script in python
+2025-03-08 20:58:21,245 - src.web_automation_tool - INFO - Successfully generated playwright script in python
+2025-03-08 20:58:21,245 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_seleniumpy
+2025-03-08 20:58:21,245 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_playwrightpy
+2025-03-08 21:07:35,301 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 21:07:35,301 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 21:07:45,089 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 21:07:49,097 - src.web_automation_tool - INFO - Executing step: click on New Survey in the home page
+2025-03-08 21:07:51,872 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 21:07:53,933 - src.web_automation_tool - INFO - Successfully executed step: click on New Survey in the home page
+2025-03-08 21:07:55,938 - src.web_automation_tool - INFO - Successfully generated selenium script in python
+2025-03-08 21:07:55,938 - src.web_automation_tool - INFO - Successfully generated playwright script in python
+2025-03-08 21:07:55,940 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_seleniumpy
+2025-03-08 21:07:55,940 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_playwrightpy
+2025-03-08 21:08:35,162 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 21:08:35,162 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 21:08:36,417 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 21:08:40,427 - src.web_automation_tool - INFO - Executing step: click on email address field
+2025-03-08 21:08:46,423 - src.web_automation_tool - ERROR - Failed to execute step 'click on email address field': Could not find input element for: click on email address field
+2025-03-08 21:08:46,424 - src.web_automation_tool - ERROR - Test execution failed: Could not find input element for: click on email address field
+2025-03-08 21:11:02,699 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 21:11:02,700 - src.web_automation_tool - INFO - Executing step: navigate to 'https://www.amazon.in/'
+2025-03-08 21:11:07,858 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 21:11:11,869 - src.web_automation_tool - INFO - Executing step: search for 'iphone 13' in the search bar
+2025-03-08 21:11:13,400 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 21:11:15,562 - src.web_automation_tool - INFO - Successfully executed step: search for 'iphone 13' in the search bar
+2025-03-08 21:11:17,566 - src.web_automation_tool - INFO - Successfully generated selenium script in python
+2025-03-08 21:11:17,566 - src.web_automation_tool - INFO - Successfully generated playwright script in python
+2025-03-08 21:11:17,567 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_seleniumpy
+2025-03-08 21:11:17,567 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_playwrightpy
+2025-03-08 21:11:20,868 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:25:03,833 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:25:45,499 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:26:34,492 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:26:50,403 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:26:55,826 - src.web_automation_tool - ERROR - Failed to analyze step: Extra data: line 15 column 1 (char 533)
+2025-03-08 23:26:55,827 - src.web_automation_tool - ERROR - Failed to execute step 'Click on email address field': Extra data: line 15 column 1 (char 533)
+2025-03-08 23:27:10,870 - src.web_automation_tool - ERROR - Test execution failed: Extra data: line 15 column 1 (char 533)
+2025-03-08 23:27:17,888 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:30:52,287 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:30:52,287 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:31:02,155 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:31:06,164 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:31:10,473 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:31:12,478 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:31:14,480 - src.web_automation_tool - INFO - Executing step: Enter 'testautomation3@gmail.com' in the email address field
+2025-03-08 23:31:18,730 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:31:20,735 - src.web_automation_tool - INFO - Successfully executed step: Enter 'testautomation3@gmail.com' in the email address field
+2025-03-08 23:31:22,741 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-08 23:31:26,903 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:31:28,904 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed button
+2025-03-08 23:31:30,905 - src.web_automation_tool - INFO - Successfully generated selenium script in python
+2025-03-08 23:31:30,905 - src.web_automation_tool - INFO - Successfully generated playwright script in python
+2025-03-08 23:31:30,907 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_seleniumpy
+2025-03-08 23:31:30,907 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_playwrightpy
+2025-03-08 23:31:34,178 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:32:58,046 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:32:58,047 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:33:08,208 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:33:12,212 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:33:16,113 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:33:18,119 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:33:20,125 - src.web_automation_tool - INFO - Executing step: Enter 'aldasfrancis@surveysparrow.com' in the email address field
+2025-03-08 23:33:24,098 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:33:26,103 - src.web_automation_tool - INFO - Successfully executed step: Enter 'aldasfrancis@surveysparrow.com' in the email address field
+2025-03-08 23:33:28,106 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-08 23:33:32,068 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:33:34,074 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed button
+2025-03-08 23:33:36,074 - src.web_automation_tool - INFO - Successfully generated selenium script in python
+2025-03-08 23:33:36,074 - src.web_automation_tool - INFO - Successfully generated playwright script in python
+2025-03-08 23:33:36,076 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_seleniumpy
+2025-03-08 23:33:36,076 - src.web_automation_tool - INFO - Script saved to generated_scripts/amazon_search_playwrightpy
+2025-03-08 23:33:39,316 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:37:36,516 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:37:36,516 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:37:44,934 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:37:48,938 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:37:53,084 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:37:55,088 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:37:57,093 - src.web_automation_tool - INFO - Executing step: Enter 'automation+2@surveysparrow.com' in the email address field
+2025-03-08 23:38:01,066 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:38:03,070 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation+2@surveysparrow.com' in the email address field
+2025-03-08 23:38:05,076 - src.web_automation_tool - INFO - Executing step: Click on proceed buttonClick on password field
+2025-03-08 23:38:08,322 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:38:10,324 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed buttonClick on password field
+2025-03-08 23:38:12,325 - src.web_automation_tool - INFO - Executing step: Enter '231as564' in the password field
+2025-03-08 23:38:43,107 - src.web_automation_tool - ERROR - Failed to execute step 'Enter '231as564' in the password field': Could not find matching element for: Enter '231as564' in the password field
+2025-03-08 23:38:43,108 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Enter '231as564' in the password field
+2025-03-08 23:38:46,384 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:39:43,643 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:39:43,644 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:39:51,094 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:39:55,100 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:39:59,547 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:40:01,550 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:40:03,550 - src.web_automation_tool - INFO - Executing step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:40:08,338 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:40:10,343 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:40:12,345 - src.web_automation_tool - INFO - Executing step: Click on proceed buttonClick on password field
+2025-03-08 23:40:17,965 - src.web_automation_tool - ERROR - Failed to execute step 'Click on proceed buttonClick on password field': Could not find matching element for: Click on proceed buttonClick on password field
+2025-03-08 23:40:17,966 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Click on proceed buttonClick on password field
+2025-03-08 23:40:21,210 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:42:38,135 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:42:38,136 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:42:47,534 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:42:51,543 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:42:57,522 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:42:59,526 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:43:01,528 - src.web_automation_tool - INFO - Executing step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:43:06,253 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:43:08,253 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:43:10,255 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-08 23:43:36,156 - src.web_automation_tool - ERROR - Failed to execute step 'Click on proceed button': Could not find matching element for: Click on proceed button
+2025-03-08 23:43:36,157 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Click on proceed button
+2025-03-08 23:43:39,447 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:43:58,203 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:43:58,203 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:44:05,403 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:44:09,409 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:44:13,431 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:44:15,436 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:44:17,439 - src.web_automation_tool - INFO - Executing step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:44:22,940 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:44:24,945 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:44:26,950 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-08 23:44:32,658 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:44:34,663 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed button
+2025-03-08 23:44:36,669 - src.web_automation_tool - INFO - Executing step: Click on password field
+2025-03-08 23:44:41,240 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:44:43,244 - src.web_automation_tool - INFO - Successfully executed step: Click on password field
+2025-03-08 23:44:45,249 - src.web_automation_tool - INFO - Executing step: Enter '231as564' in the password field
+2025-03-08 23:44:49,655 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:44:51,660 - src.web_automation_tool - INFO - Successfully executed step: Enter '231as564' in the password field
+2025-03-08 23:44:53,666 - src.web_automation_tool - INFO - Executing step: Click on login button
+2025-03-08 23:44:59,637 - src.web_automation_tool - ERROR - Failed to execute step 'Click on login button': Could not find matching element for: Click on login button
+2025-03-08 23:44:59,637 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Click on login button
+2025-03-08 23:45:02,943 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-08 23:46:40,040 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-08 23:46:40,040 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-08 23:46:48,365 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-08 23:46:52,372 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-08 23:46:56,827 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:46:58,832 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-08 23:47:00,834 - src.web_automation_tool - INFO - Executing step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:47:05,460 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:47:07,465 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-08 23:47:09,470 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-08 23:47:16,788 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:47:18,795 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed button
+2025-03-08 23:47:20,799 - src.web_automation_tool - INFO - Executing step: Click on password field
+2025-03-08 23:47:24,933 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-08 23:47:26,938 - src.web_automation_tool - INFO - Successfully executed step: Click on password field
+2025-03-08 23:47:28,943 - src.web_automation_tool - INFO - Executing step: Enter '231as564' in the password field
+2025-03-08 23:47:33,788 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-08 23:47:35,792 - src.web_automation_tool - INFO - Successfully executed step: Enter '231as564' in the password field
+2025-03-08 23:47:37,796 - src.web_automation_tool - INFO - Executing step: Click on login button
+2025-03-08 23:47:42,085 - src.web_automation_tool - ERROR - Failed to execute step 'Click on login button': Could not find matching element for: Click on login button
+2025-03-08 23:47:42,086 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Click on login button
+2025-03-08 23:47:45,286 - src.web_automation_tool - INFO - Cleanup completed successfully
+2025-03-10 12:07:05,520 - src.web_automation_tool - INFO - Browser initialized successfully
+2025-03-10 12:07:05,520 - src.web_automation_tool - INFO - Executing step: navigate to 'https://testautomation3.salesparrow.com/'
+2025-03-10 12:07:32,694 - src.web_automation_tool - INFO - Recorded action: navigate
+2025-03-10 12:07:36,705 - src.web_automation_tool - INFO - Executing step: Click on email address field
+2025-03-10 12:07:44,253 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-10 12:07:46,259 - src.web_automation_tool - INFO - Successfully executed step: Click on email address field
+2025-03-10 12:07:48,263 - src.web_automation_tool - INFO - Executing step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-10 12:07:55,934 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-10 12:07:56,238 - src.web_automation_tool - INFO - Successfully executed step: Enter 'automation.test+333@surveysparrowqa.com' in the email address field
+2025-03-10 12:07:58,243 - src.web_automation_tool - INFO - Executing step: Click on proceed button
+2025-03-10 12:08:06,373 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-10 12:08:08,380 - src.web_automation_tool - INFO - Successfully executed step: Click on proceed button
+2025-03-10 12:08:10,386 - src.web_automation_tool - INFO - Executing step: Click on password field
+2025-03-10 12:08:17,980 - src.web_automation_tool - INFO - Recorded action: click
+2025-03-10 12:08:19,987 - src.web_automation_tool - INFO - Successfully executed step: Click on password field
+2025-03-10 12:08:21,992 - src.web_automation_tool - INFO - Executing step: Enter '231as564' in the password field
+2025-03-10 12:08:29,765 - src.web_automation_tool - INFO - Recorded action: input
+2025-03-10 12:08:29,843 - src.web_automation_tool - INFO - Successfully executed step: Enter '231as564' in the password field
+2025-03-10 12:08:31,845 - src.web_automation_tool - INFO - Executing step: Click on login button
+2025-03-10 12:09:46,719 - src.web_automation_tool - ERROR - Failed to generate locators: Error code: 400 - {'error': {'message': "Invalid 'messages[0].content': string too long. Expected a string with maximum length 1048576, but got a string with length 3248110 instead.", 'type': 'invalid_request_error', 'param': 'messages[0].content', 'code': 'string_above_max_length'}}
+2025-03-10 12:10:51,047 - src.web_automation_tool - ERROR - Failed to generate locators: Error code: 400 - {'error': {'message': "Invalid 'messages[0].content': string too long. Expected a string with maximum length 1048576, but got a string with length 3248110 instead.", 'type': 'invalid_request_error', 'param': 'messages[0].content', 'code': 'string_above_max_length'}}
+2025-03-10 12:10:52,054 - src.web_automation_tool - ERROR - Failed to execute step 'Click on login button': Could not find matching element for: Click on login button
+2025-03-10 12:10:52,054 - src.web_automation_tool - ERROR - Test execution failed: Could not find matching element for: Click on login button
+2025-03-10 12:10:55,456 - src.web_automation_tool - INFO - Cleanup completed successfully

@@ -1,0 +1,46 @@
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+
+def run_test():
+    # Initialize the driver
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    wait = WebDriverWait(driver, 10)
+    
+    try:
+        
+        # Navigate to URL
+        driver.get("https://testautomation3.salesparrow.com/")
+        time.sleep(2)  # Wait for page load
+
+        # Wait for element to be clickable and click
+        element = wait.until(EC.element_to_be_clickable((By.XPATH, "['//*[@id="loginEmail"]', '/html/body/input[1]']")))
+        element.click()
+        time.sleep(2)  # Wait for action to complete
+
+        # Wait for input element and enter text
+        element = wait.until(EC.presence_of_element_located((By.XPATH, "['//*[@id="loginEmail"]', '/html/body/input[1]']")))
+        element.clear()
+        element.send_keys("")
+        element.send_keys(Keys.RETURN)
+        time.sleep(2)  # Wait for search results
+
+        # Wait for element to be clickable and click
+        element = wait.until(EC.element_to_be_clickable((By.XPATH, "['//*[@id="loginButton"]', '']")))
+        element.click()
+        time.sleep(2)  # Wait for action to complete
+        
+    except Exception as e:
+        print(f"Test failed: {str(e)}")
+    finally:
+        time.sleep(2)  # Small delay before closing
+        driver.quit()
+
+        
+if __name__ == "__main__":
+    run_test()
